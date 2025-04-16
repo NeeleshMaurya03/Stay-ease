@@ -1,0 +1,89 @@
+{
+    "listings": [
+      {
+        "id": "1",
+        "name": "Premium Private Room in Noida Sector 62",
+        "price": 350,
+        "propertyType": "Private Room",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "description": "Spacious private room in a premium society, 5 mins walk from metro station.",
+        "features": ["WiFi", "AC", "Security", "Parking"],
+        "images": ["/assets/1.jpeg"],
+        "availableFrom": "2025-06-15",
+        "contact": {
+          "name": "Rajesh Kumar",
+          "phone": "+91 9876543210"
+        },
+        "rating": 4.7
+      },
+      {
+        "id": "2",
+        "name": "Cozy PG for Girls in Greater Noida",
+        "price": 400,
+        "propertyType": "PG",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "description": "Safe accommodation with hygienic food options.",
+        "features": ["WiFi", "Laundry", "CCTV"],
+        "images": ["/assets/2.jpeg"],
+        "availableFrom": "2025-06-01",
+        "contact": {
+          "name": "Neha Sharma",
+          "phone": "+91 8765432109"
+        },
+        "rating": 4.5
+      },
+      {
+        "id": "3",
+        "name": "1 BHK in Indirapuram",
+        "price": 500,
+        "propertyType": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "description": "Modern furnished flat with balcony.",
+        "features": ["WiFi", "Furnished", "Lift"],
+        "images": ["/assets/3.jpeg"],
+        "availableFrom": "2025-06-10",
+        "contact": {
+          "name": "Suman Yadav",
+          "phone": "+91 9988776655"
+        },
+        "rating": 4.8
+      },
+      {
+        "id": "4",
+        "name": "Luxury Studio in Gurgaon",
+        "price": 600,
+        "propertyType": "Studio",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "description": "Premium studio with pool access.",
+        "features": ["Pool", "Gym", "Security"],
+        "images": ["/assets/4.jpeg"],
+        "availableFrom": "2025-05-25",
+        "contact": {
+          "name": "Ritika Mehra",
+          "phone": "+91 9090909090"
+        },
+        "rating": 4.9
+      },
+      {
+        "id": "5",
+        "name": "Shared Room in Delhi",
+        "price": 300,
+        "propertyType": "Shared",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "description": "Women-only accommodation in prime location.",
+        "features": ["WiFi", "Laundry", "Kitchen"],
+        "images": ["/assets/5.jpeg"],
+        "availableFrom": "2025-06-05",
+        "contact": {
+          "name": "Anjali Verma",
+          "phone": "+91 9123456789"
+        },
+        "rating": 4.6
+      }
+    ]
+  }
