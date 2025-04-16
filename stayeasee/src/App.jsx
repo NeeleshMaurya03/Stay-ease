@@ -1,22 +1,24 @@
-import React from 'react';
-import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import SignInPage from './pages/SignInPage';
+import SearchPage from './pages/SearchPage';
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>Welcome to StayEase!</h1>
-        
-        <SignedOut>
-          <p>You are not signed in.</p>
-          <SignInButton />
-        </SignedOut>
-        
-        <SignedIn>
-          <p>You are signed in!</p>
-          <UserButton />
-        </SignedIn>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/sign-in" element={<SignInPage />} />
+        <Route path="/search" element={<SearchPage />} />
+      </Routes>
+    </>
   );
 }
+
+export default App;
